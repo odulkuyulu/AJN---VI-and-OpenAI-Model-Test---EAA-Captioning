@@ -1,0 +1,16 @@
+{
+  "VI": [
+    {"category": "music", "description": "music playing", "start": 1.0, "end": 5.0, "confidence": 0.82},
+    {"category": "glass breaking", "description": "glass breaking", "start": 6.0, "end": 7.0, "confidence": 0.78}
+  ],
+  "CLASSIFIER": [
+    {"category": "glass breaking", "description": "glass shattering", "start": 5.8, "end": 7.1, "confidence": 0.91},
+    {"category": "gasp", "description": "person gasps", "start": 7.0, "end": 8.0, "confidence": 0.74}
+  ],
+  "GPT": [
+    {"category": "music", "description": "melancholic piano music playing", "start": 0.0, "end": 10.0, "confidence": null},
+    {"category": "glass breaking", "description": "glass shattering", "start": 0.0, "end": 10.0, "confidence": null},
+    {"category": "gasp", "description": "a person gasps", "start": 0.0, "end": 10.0, "confidence": null}
+  ]
+}
+

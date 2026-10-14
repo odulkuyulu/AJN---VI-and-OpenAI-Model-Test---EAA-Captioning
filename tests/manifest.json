@@ -1,0 +1,26 @@
+{
+  "tests": [
+    {"test_id":"TEST-001","name":"Speech Only","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-002","name":"Glass Breaking","media_path":null,"expected_events":[{"category":"glass breaking","description":"glass shattering","start":null,"end":null,"accessibility_critical":true}]},
+    {"test_id":"TEST-003","name":"Siren","media_path":null,"expected_events":[{"category":"siren","description":"siren wailing","start":null,"end":null,"accessibility_critical":true}]},
+    {"test_id":"TEST-004","name":"Explosion / Gunshot","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-005","name":"Laughter","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-006","name":"Crying","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-007","name":"Screaming","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-008","name":"Cough / Gasp / Sigh","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-009","name":"Background Music","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-010","name":"Music Genre / Mood","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-011","name":"Crowd Ambience","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-012","name":"Traffic","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-013","name":"Rain","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-014","name":"Wind","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-015","name":"Birds","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-016","name":"Door Slam","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-017","name":"Multiple Simultaneous Sounds","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-018","name":"Speech + Sound Effect","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-019","name":"Arabic Speech + Sound Effect","media_path":null,"expected_events":[]},
+    {"test_id":"TEST-020","name":"Complex News/Broadcast Scene","media_path":null,"expected_events":[]},
+    {"test_id":"AJN-STRESS-001","name":"AJN Real-World Broadcast Stress Test","media_path":null,"expected_events":[]}
+  ]
+}
+

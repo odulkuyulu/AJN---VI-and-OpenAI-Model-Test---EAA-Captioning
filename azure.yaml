@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/refs/heads/main/schemas/v1.0/azure.yaml.json
+name: ajn-accessible-captioning
+metadata:
+  template: ajn-accessible-captioning@0.1.0
+infra:
+  provider: bicep
+  path: infra
+
